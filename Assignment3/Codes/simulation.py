@@ -14,7 +14,8 @@ for i in range(size):
   d = random.uniform(1,4)
   #final random variable X
   X = np.random.choice([a,b,c,d] , p=[0.3,0.2,0.2,0.3])
-
+  #Pr(a<=X<= b) = integral f(x)dx with lower limit a and upper limit b
+  
   if(X<5) and (X>0.5):
     count+=1
 
