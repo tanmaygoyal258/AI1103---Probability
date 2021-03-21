@@ -8,8 +8,10 @@ def F(x):
     return 0.5 + 0.2*x
   elif (x>=1) and(x<=4):
     return 0.6 + 0.1*x
+  elif (x>=4):
+    return 1;
   else:
-    return 0
+      return 0
 
 
 X = np.linspace(-5,5,1000000)
