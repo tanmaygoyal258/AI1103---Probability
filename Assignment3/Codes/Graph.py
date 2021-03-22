@@ -17,5 +17,7 @@ X = np.linspace(-5,5,1000000)
 Y = [f(x) for x in X]
 
 plt.plot(X,Y)
+plt.xlabel('$x_i$')
+plt.ylabel('$f(x_i)$')
 
 plt.show()
