@@ -20,4 +20,5 @@ Y = [F(x) for x in X]
 plt.xlabel('$x_i$')
 plt.ylabel('$F(x_i)$')
 plt.plot(X,Y)
+plt.grid()
 plt.show()
